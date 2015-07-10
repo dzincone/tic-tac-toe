@@ -13,6 +13,7 @@ h1 {
   margin-bottom: 10vh;
 }
 
+
 .main-board {
   margin: 0 auto;
   width: 80%;
@@ -23,16 +24,23 @@ h1 {
  text-align: center;
 }
 
+.row {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
 .cell0 {
+  vertical-align: top;
   text-align: center;
   width: 30%;
   display: inline-block;
   height: 30vh;
   border-right: 2px solid black;
   border-bottom: 2px solid black;
-  margin: 0;
 }
 .cell1 {
+  vertical-align: top;
   text-align: center;
   width: 30%;
   display: inline-block;
@@ -40,21 +48,23 @@ h1 {
   border-bottom: 2px solid black;
 }
 .cell2 {
+  vertical-align: top;
   text-align: center;
   width: 30%;
   display: inline-block;
   height: 30vh;
   border-left: 2px solid black;
   border-bottom: 2px solid black;
-    margin: 0;
 }
 .cell3 {
+  vertical-align: top;
   text-align: center;
   width: 30%;
   display: inline-block;
   height: 30vh;
 }
 .cell4 {
+  vertical-align: top;
   text-align: center;
   width: 30%;
   display: inline-block;
@@ -63,12 +73,14 @@ h1 {
   border-right: 2px solid black;
 }
 .cell5 {
+  vertical-align: top;
   text-align: center;
   width: 30%;
   display: inline-block;
   height: 30vh;
 }
 .cell6 {
+  vertical-align: top;
   text-align: center;
   width: 30%;
   display: inline-block;
@@ -77,6 +89,7 @@ h1 {
   border-right: 2px solid black;
 }
 .cell7 {
+  vertical-align: top;
   text-align: center;
   width: 30%;
   display: inline-block;
@@ -84,6 +97,7 @@ h1 {
   border-top: 2px solid black;
 }
 .cell8 {
+  vertical-align: top;
   text-align: center;
   width: 30%;
   display: inline-block;
