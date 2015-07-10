@@ -29,6 +29,7 @@ function checkGame() {
     cell6.innerHTML = "";
     cell7.innerHTML = "";
     cell8.innerHTML = "";
+    turn = [];
   }
 
   else if ((cell0.innerHTML === "O" && cell4.innerHTML === "O" && cell8.innerHTML === "O" ) || (cell0.innerHTML === "O" && cell1.innerHTML === "O" && cell2.innerHTML === "O") || (cell0.innerHTML === "O" && cell3.innerHTML === "O" && cell6.innerHTML === "O") ||
@@ -47,6 +48,7 @@ function checkGame() {
     cell6.innerHTML = "";
     cell7.innerHTML = "";
     cell8.innerHTML = "";
+    turn = [];
   }
   else if (turn.length === 9){
     alert("Tie Game");
@@ -59,6 +61,7 @@ function checkGame() {
     cell6.innerHTML = "";
     cell7.innerHTML = "";
     cell8.innerHTML = "";
+    turn = [];
   }
 
 }
@@ -138,7 +141,7 @@ board.addEventListener("click", function(e) {
               cell.innerHTML = "O";
               turn.push("turn");
             }
-            if(turn.length != 9){
+            if(turn.length <= 10){
               checkGame();
             }
   }
@@ -164,7 +167,7 @@ board.addEventListener("click", function(e) {
               cell.innerHTML = "O";
               turn.push("turn");
             }
-            if(turn.length != 9){
+            if(turn.length <= 10){
               checkGame();
             }
   }
@@ -190,7 +193,7 @@ board.addEventListener("click", function(e) {
       cell.innerHTML = "O";
       turn.push("turn");
     }
-    if(turn.length != 9){
+    if(turn.length <= 10){
       checkGame();
     }
   }
@@ -216,7 +219,7 @@ board.addEventListener("click", function(e) {
       cell.innerHTML = "O";
       turn.push("turn");
     }
-    if(turn.length != 9){
+    if(turn.length <= 10){
       checkGame();
     }
   }
@@ -243,7 +246,7 @@ board.addEventListener("click", function(e) {
       cell.innerHTML = "O";
       turn.push("turn");
     }
-    if(turn.length != 9){
+    if(turn.length <= 10){
       checkGame();
     }
   }
@@ -270,7 +273,7 @@ board.addEventListener("click", function(e) {
       cell.innerHTML = "O";
       turn.push("turn");
     }
-    if(turn.length != 9){
+    if(turn.length <= 10){
       checkGame();
     }
   }
@@ -297,7 +300,7 @@ board.addEventListener("click", function(e) {
       cell.innerHTML = "O";
       turn.push("turn");
     }
-    if(turn.length != 9){
+    if(turn.length <= 10){
       checkGame();
     }
   }
@@ -324,7 +327,7 @@ board.addEventListener("click", function(e) {
       cell.innerHTML = "O";
       turn.push("turn");
     }
-    if(turn.length != 9){
+    if(turn.length <= 10){
       checkGame();
     }
   }

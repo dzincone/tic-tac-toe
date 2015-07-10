@@ -39,7 +39,6 @@ h1 {
   height: 30vh;
   border-right: 2px solid black;
   border-bottom: 2px solid black;
-  cursor: pointer;
 }
 .cell1 {
   vertical-align: top;
