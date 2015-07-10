@@ -1,5 +1,9 @@
 var board = document.getElementsByClassName("main-board")[0];
 
+var turn = [];
+
+
+
 board.addEventListener("click", function(e) {
   if(e.target.className === "start-game") {
     board.innerHTML = "";
@@ -30,31 +34,162 @@ board.addEventListener("click", function(e) {
 
   } else if( e.target.className === "cell0") {
     var cell = document.getElementsByClassName("cell0")[0];
-    cell.innerHTML = "New"
-  } else if( e.target.className === "cell1") {
+    if(turn.length === 0) {
+      cell.innerHTML = "X";
+      turn.push("turn");
+    } else if(turn.length === 1) {
+      cell.innerHTML = "0"
+      turn.push("turn");
+    } else if (turn.length % 2 === 0){
+      cell.innerHTML = "X";
+      turn.push("turn")
+    } else if (turn.length % 2 != 0) {
+      cell.innerHTML = "O";
+      turn.push("turn");
+    }
+  }
+
+   else if( e.target.className === "cell1") {
     var cell = document.getElementsByClassName("cell1")[0];
-    cell.innerHTML = "New"
-  }else if( e.target.className === "cell2") {
+    if(turn.length === 0) {
+      cell.innerHTML = "X";
+      turn.push("turn");
+    } else if(turn.length === 1) {
+      cell.innerHTML = "0"
+      turn.push("turn");
+    } else if (turn.length % 2 === 0){
+      cell.innerHTML = "X";
+      turn.push("turn")
+    } else if (turn.length % 2 != 0) {
+      cell.innerHTML = "O";
+      turn.push("turn");
+    }
+  }
+
+
+    else if( e.target.className === "cell2") {
     var cell = document.getElementsByClassName("cell2")[0];
-    cell.innerHTML = "New"
-  }else if( e.target.className === "cell3") {
+    if(turn.length === 0) {
+      cell.innerHTML = "X";
+      turn.push("turn");
+    } else if(turn.length === 1) {
+      cell.innerHTML = "0"
+      turn.push("turn");
+    } else if (turn.length % 2 === 0){
+      cell.innerHTML = "X";
+      turn.push("turn")
+    } else if (turn.length % 2 != 0) {
+      cell.innerHTML = "O";
+      turn.push("turn");
+    }
+  }
+
+
+  else if( e.target.className === "cell3") {
     var cell = document.getElementsByClassName("cell3")[0];
-    cell.innerHTML = "New"
-  }else if( e.target.className === "cell4") {
+    if(turn.length === 0) {
+      cell.innerHTML = "X";
+      turn.push("turn");
+    } else if(turn.length === 1) {
+      cell.innerHTML = "0"
+      turn.push("turn");
+    } else if (turn.length % 2 === 0){
+      cell.innerHTML = "X";
+      turn.push("turn")
+    } else if (turn.length % 2 != 0) {
+      cell.innerHTML = "O";
+      turn.push("turn");
+    }
+  }
+
+
+  else if( e.target.className === "cell4") {
     var cell = document.getElementsByClassName("cell4")[0];
-    cell.innerHTML = "New"
-  }else if( e.target.className === "cell5") {
+    if(turn.length === 0) {
+      cell.innerHTML = "X";
+      turn.push("turn");
+    } else if(turn.length === 1) {
+      cell.innerHTML = "0"
+      turn.push("turn");
+    } else if (turn.length % 2 === 0){
+      cell.innerHTML = "X";
+      turn.push("turn")
+    } else if (turn.length % 2 != 0) {
+      cell.innerHTML = "O";
+      turn.push("turn");
+    }
+  }
+
+
+  else if( e.target.className === "cell5") {
     var cell = document.getElementsByClassName("cell5")[0];
-    cell.innerHTML = "New"
-  }else if( e.target.className === "cell6") {
+    if(turn.length === 0) {
+      cell.innerHTML = "X";
+      turn.push("turn");
+    } else if(turn.length === 1) {
+      cell.innerHTML = "0"
+      turn.push("turn");
+    } else if (turn.length % 2 === 0){
+      cell.innerHTML = "X";
+      turn.push("turn")
+    } else if (turn.length % 2 != 0) {
+      cell.innerHTML = "O";
+      turn.push("turn");
+    }
+  }
+
+
+  else if( e.target.className === "cell6") {
     var cell = document.getElementsByClassName("cell6")[0];
-    cell.innerHTML = "New"
-  }else if( e.target.className === "cell7") {
+    if(turn.length === 0) {
+      cell.innerHTML = "X";
+      turn.push("turn");
+    } else if(turn.length === 1) {
+      cell.innerHTML = "0"
+      turn.push("turn");
+    } else if (turn.length % 2 === 0){
+      cell.innerHTML = "X";
+      turn.push("turn")
+    } else if (turn.length % 2 != 0) {
+      cell.innerHTML = "O";
+      turn.push("turn");
+    }
+  }
+
+
+  else if( e.target.className === "cell7") {
     var cell = document.getElementsByClassName("cell7")[0];
-    cell.innerHTML = "New"
-  }else if( e.target.className === "cell8") {
+    if(turn.length === 0) {
+      cell.innerHTML = "X";
+      turn.push("turn");
+    } else if(turn.length === 1) {
+      cell.innerHTML = "0"
+      turn.push("turn");
+    } else if (turn.length % 2 === 0){
+      cell.innerHTML = "X";
+      turn.push("turn")
+    } else if (turn.length % 2 != 0) {
+      cell.innerHTML = "O";
+      turn.push("turn");
+    }
+  }
+
+
+  else if( e.target.className === "cell8") {
     var cell = document.getElementsByClassName("cell8")[0];
-    cell.innerHTML = "New"
+    if(turn.length === 0) {
+      cell.innerHTML = "X";
+      turn.push("turn");
+    } else if(turn.length === 1) {
+      cell.innerHTML = "0"
+      turn.push("turn");
+    } else if (turn.length % 2 === 0){
+      cell.innerHTML = "X";
+      turn.push("turn")
+    } else if (turn.length % 2 != 0) {
+      cell.innerHTML = "O";
+      turn.push("turn");
+    }
   }
 
 
