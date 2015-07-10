@@ -1,8 +1,93 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 a {
   color: #00B7FF;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.main-board {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.start{
+ text-align: center;
+}
+
+.cell0 {
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+  height: 30vh;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  margin: 0;
+}
+.cell1 {
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+  height: 30vh;
+  border-bottom: 2px solid black;
+}
+.cell2 {
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+  height: 30vh;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+    margin: 0;
+}
+.cell3 {
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+  height: 30vh;
+}
+.cell4 {
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+  height: 30vh;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.cell5 {
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+  height: 30vh;
+}
+.cell6 {
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+  height: 30vh;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
+.cell7 {
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+  height: 30vh;
+  border-top: 2px solid black;
+}
+.cell8 {
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+  height: 30vh;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
 }
