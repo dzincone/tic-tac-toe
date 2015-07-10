@@ -1,6 +1,6 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 28px "Lucida Grande", Helvetica, Arial, sans-serif;
   box-sizing: border-box;
 }
 
@@ -32,77 +32,94 @@ h1 {
 
 .cell0 {
   vertical-align: top;
-  line-height: 50%;
   text-align: center;
+  line-height: 15vh;
   width: 30%;
   display: inline-block;
-  height: 30vh;
+  height: 15vh;
   border-right: 2px solid black;
   border-bottom: 2px solid black;
+  cursor: pointer;
 }
 .cell1 {
   vertical-align: top;
   text-align: center;
+  line-height: 15vh;
   width: 30%;
   display: inline-block;
-  height: 30vh;
+  height: 15vh;
   border-bottom: 2px solid black;
+  cursor: pointer;
 }
 .cell2 {
   vertical-align: top;
   text-align: center;
+  line-height: 15vh;
   width: 30%;
   display: inline-block;
-  height: 30vh;
+  height: 15vh;
   border-left: 2px solid black;
   border-bottom: 2px solid black;
+  cursor: pointer;
 }
 .cell3 {
   vertical-align: top;
   text-align: center;
+  line-height: 15vh;
   width: 30%;
   display: inline-block;
-  height: 30vh;
+  height: 15vh;
+  cursor: pointer;
 }
 .cell4 {
   vertical-align: top;
   text-align: center;
+  line-height: 15vh;
   width: 30%;
   display: inline-block;
-  height: 30vh;
+  height: 15vh;
   border-left: 2px solid black;
   border-right: 2px solid black;
+  cursor: pointer;
 }
 .cell5 {
   vertical-align: top;
   text-align: center;
+  line-height: 15vh;
   width: 30%;
   display: inline-block;
-  height: 30vh;
+  height: 15vh;
+  cursor: pointer;
 }
 .cell6 {
   vertical-align: top;
   text-align: center;
+  line-height: 15vh;
   width: 30%;
   display: inline-block;
-  height: 30vh;
+  height: 15vh;
   border-top: 2px solid black;
   border-right: 2px solid black;
+  cursor: pointer;
 }
 .cell7 {
   vertical-align: top;
   text-align: center;
+  line-height: 15vh;
   width: 30%;
   display: inline-block;
-  height: 30vh;
+  height: 15vh;
   border-top: 2px solid black;
+  cursor: pointer;
 }
 .cell8 {
   vertical-align: top;
   text-align: center;
+  line-height: 15vh;
   width: 30%;
   display: inline-block;
-  height: 30vh;
+  height: 15vh;
   border-left: 2px solid black;
   border-top: 2px solid black;
+  cursor: pointer;
 }

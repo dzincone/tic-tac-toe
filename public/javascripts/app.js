@@ -61,7 +61,7 @@ function checkGame() {
     cell6.innerHTML = "";
     cell7.innerHTML = "";
     cell8.innerHTML = "";
-    turn = [];
+    turn = []
   }
 
 }
@@ -99,19 +99,25 @@ board.addEventListener("click", function(e) {
     var cell = document.getElementsByClassName("cell0")[0];
             if (cell.innerHTML === "X") {
                 cell.innerHTML = "X";
+                cell.style.color = "red";
             } else if (cell.innerHTML === "O") {
                 cell.innerHTML = "O";
+                cell.style.color = "blue";
             }else if (turn.length === 0) {
               cell.innerHTML = "X";
+              cell.style.color = "red";
               turn.push("turn");
             } else if(turn.length === 1) {
               cell.innerHTML = "O"
+              cell.style.color = "blue";
               turn.push("turn");
             } else if (turn.length % 2 === 0){
               cell.innerHTML = "X";
+              cell.style.color = "red";
               turn.push("turn")
             } else if (turn.length % 2 != 0) {
               cell.innerHTML = "O";
+              cell.style.color = "blue";
               turn.push("turn");
             }
             if(turn.length <= 10){
@@ -125,20 +131,26 @@ board.addEventListener("click", function(e) {
     var cell = document.getElementsByClassName("cell1")[0];
           if (cell.innerHTML === "X") {
               cell.innerHTML = "X";
+              cell.style.color = "red";
           } else if (cell.innerHTML === "O") {
               cell.innerHTML = "O";
+              cell.style.color = "blue";
             }
             else if(turn.length === 0) {
               cell.innerHTML = "X";
+              cell.style.color = "red";
               turn.push("turn");
             } else if(turn.length === 1) {
               cell.innerHTML = "O"
+              cell.style.color = "blue";
               turn.push("turn");
             } else if (turn.length % 2 === 0){
               cell.innerHTML = "X";
+              cell.style.color = "red";
               turn.push("turn")
             } else if (turn.length % 2 != 0) {
               cell.innerHTML = "O";
+              cell.style.color = "blue";
               turn.push("turn");
             }
             if(turn.length <= 10){
@@ -151,20 +163,26 @@ board.addEventListener("click", function(e) {
     var cell = document.getElementsByClassName("cell2")[0];
           if (cell.innerHTML === "X") {
               cell.innerHTML = "X";
+              cell.style.color = "red";
           } else if (cell.innerHTML === "O") {
               cell.innerHTML = "O";
+              cell.style.color = "blue";
             }
             else if(turn.length === 0) {
               cell.innerHTML = "X";
+              cell.style.color = "red";
               turn.push("turn");
             } else if(turn.length === 1) {
               cell.innerHTML = "O"
+              cell.style.color = "blue";
               turn.push("turn");
             } else if (turn.length % 2 === 0){
               cell.innerHTML = "X";
+              cell.style.color = "red";
               turn.push("turn")
             } else if (turn.length % 2 != 0) {
               cell.innerHTML = "O";
+              cell.style.color = "blue";
               turn.push("turn");
             }
             if(turn.length <= 10){
@@ -177,20 +195,26 @@ board.addEventListener("click", function(e) {
     var cell = document.getElementsByClassName("cell3")[0];
     if (cell.innerHTML === "X") {
         cell.innerHTML = "X";
+        cell.style.color = "red";
     } else if (cell.innerHTML === "O") {
         cell.innerHTML = "O";
+        cell.style.color = "blue";
       }
       else if(turn.length === 0) {
       cell.innerHTML = "X";
+      cell.style.color = "red";
       turn.push("turn");
     } else if(turn.length === 1) {
       cell.innerHTML = "O"
+      cell.style.color = "blue";
       turn.push("turn");
     } else if (turn.length % 2 === 0){
       cell.innerHTML = "X";
+      cell.style.color = "red";
       turn.push("turn")
     } else if (turn.length % 2 != 0) {
       cell.innerHTML = "O";
+      cell.style.color = "blue";
       turn.push("turn");
     }
     if(turn.length <= 10){
@@ -203,20 +227,26 @@ board.addEventListener("click", function(e) {
     var cell = document.getElementsByClassName("cell4")[0];
     if (cell.innerHTML === "X") {
         cell.innerHTML = "X";
+        cell.style.color = "red";
     } else if (cell.innerHTML === "O") {
         cell.innerHTML = "O";
+        cell.style.color = "blue";
       }
       else if(turn.length === 0) {
       cell.innerHTML = "X";
+      cell.style.color = "red";
       turn.push("turn");
     } else if(turn.length === 1) {
       cell.innerHTML = "O"
+      cell.style.color = "blue";
       turn.push("turn");
     } else if (turn.length % 2 === 0){
       cell.innerHTML = "X";
+      cell.style.color = "red";
       turn.push("turn")
     } else if (turn.length % 2 != 0) {
       cell.innerHTML = "O";
+      cell.style.color = "blue";
       turn.push("turn");
     }
     if(turn.length <= 10){
@@ -230,20 +260,26 @@ board.addEventListener("click", function(e) {
 
     if (cell.innerHTML === "X") {
         cell.innerHTML = "X";
+        cell.style.color = "red";
     } else if (cell.innerHTML === "O") {
         cell.innerHTML = "O";
+        cell.style.color = "blue";
       }
       else if(turn.length === 0) {
       cell.innerHTML = "X";
+      cell.style.color = "red";
       turn.push("turn");
     } else if(turn.length === 1) {
       cell.innerHTML = "O"
+      cell.style.color = "blue";
       turn.push("turn");
     } else if (turn.length % 2 === 0){
       cell.innerHTML = "X";
+      cell.style.color = "red";
       turn.push("turn")
     } else if (turn.length % 2 != 0) {
       cell.innerHTML = "O";
+      cell.style.color = "blue";
       turn.push("turn");
     }
     if(turn.length <= 10){
@@ -257,20 +293,26 @@ board.addEventListener("click", function(e) {
 
     if (cell.innerHTML === "X") {
         cell.innerHTML = "X";
+        cell.style.color = "red";
     } else if (cell.innerHTML === "O") {
         cell.innerHTML = "O";
+        cell.style.color = "blue";
       }
       else if(turn.length === 0) {
       cell.innerHTML = "X";
+      cell.style.color = "red";
       turn.push("turn");
     } else if(turn.length === 1) {
       cell.innerHTML = "O"
+      cell.style.color = "blue";
       turn.push("turn");
     } else if (turn.length % 2 === 0){
       cell.innerHTML = "X";
+      cell.style.color = "red";
       turn.push("turn")
     } else if (turn.length % 2 != 0) {
       cell.innerHTML = "O";
+      cell.style.color = "blue";
       turn.push("turn");
     }
     if(turn.length <= 10){
@@ -284,20 +326,26 @@ board.addEventListener("click", function(e) {
 
     if (cell.innerHTML === "X") {
         cell.innerHTML = "X";
+        cell.style.color = "red";
     } else if (cell.innerHTML === "O") {
         cell.innerHTML = "O";
+        cell.style.color = "blue";
       }
       else if(turn.length === 0) {
       cell.innerHTML = "X";
+      cell.style.color = "red";
       turn.push("turn");
     } else if(turn.length === 1) {
       cell.innerHTML = "O"
+      cell.style.color = "blue";
       turn.push("turn");
     } else if (turn.length % 2 === 0){
       cell.innerHTML = "X";
+      cell.style.color = "red";
       turn.push("turn")
     } else if (turn.length % 2 != 0) {
       cell.innerHTML = "O";
+      cell.style.color = "blue";
       turn.push("turn");
     }
     if(turn.length <= 10){
@@ -311,20 +359,26 @@ board.addEventListener("click", function(e) {
 
     if (cell.innerHTML === "X") {
         cell.innerHTML = "X";
+        cell.style.color = "red";
     } else if (cell.innerHTML === "O") {
         cell.innerHTML = "O";
+        cell.style.color = "blue";
       }
       else if(turn.length === 0) {
       cell.innerHTML = "X";
+      cell.style.color = "red";
       turn.push("turn");
     } else if(turn.length === 1) {
       cell.innerHTML = "O"
+      cell.style.color = "blue";
       turn.push("turn");
     } else if (turn.length % 2 === 0){
       cell.innerHTML = "X";
+      cell.style.color = "red";
       turn.push("turn")
     } else if (turn.length % 2 != 0) {
       cell.innerHTML = "O";
+      cell.style.color = "blue";
       turn.push("turn");
     }
     if(turn.length <= 10){
