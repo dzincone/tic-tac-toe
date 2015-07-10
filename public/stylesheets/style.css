@@ -32,6 +32,7 @@ h1 {
 
 .cell0 {
   vertical-align: top;
+  line-height: 50%;
   text-align: center;
   width: 30%;
   display: inline-block;
